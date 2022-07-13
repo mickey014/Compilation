@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.back {
+  background-color: #2874a6;
+  width: 100px;
+  padding: 1.1rem;
+  margin: 0 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+#family-main-wrapper {
+  display: grid;
+  grid-template-columns: 15% 75%;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.family-image-container {
+  box-shadow: -15px 15px 1px rgba(0, 0, 0, 0.2);
+  background-color: #2874a6;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.family-image-wrapper {
+  margin: 0 -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: .5rem;
+  border-radius: 50%;
+}
+
+.family-image-container .family-image-wrapper img {
+  position: absolute;
+  bottom: 25px;
+  left: -50px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.family-member-wrapper {
+  padding: 1rem;
+  margin-left: 3rem;
+}
+
+.family-member-wrapper h1 {
+  text-align: center;
+}
+
+.family-member-container {
+  box-shadow: 15px -15px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  background-color: #fff;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.family {
+  margin: 20px;
+  padding: 20px;
+  width: 290px;
+  min-height: 250px;
+  display: grid;
+  grid-template-rows: 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+  justify-content: center;
+}
+
+.family:hover {
+  transform: scale(1.1);
+}
+
+
+.family h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.family .view {
+  display: block;
+  text-align: center;
+  background-color: #2874a6;
+  color: #fff;
+  padding: .5rem;
+  text-decoration: none;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.family .view:hover {
+  transition: .5s all linear;
+  opacity: .8;
+}
+
+.family .description {
+  display: flex;
+  justify-content: center;
+}
+
+.family img {
+  width: 100%;
+  height: 160px;
+}
+
+
+.user-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-mini-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: #2874a6;
+}
+
+.user-mini-wrapper .user-img {
+  margin-right: 2rem;
+}
+
+.user-mini-wrapper .user-img .img {
+  width: 250px;
+  height: 300px;
+}
+
+.user-mini-wrapper .user-info {
+  margin-top: 1rem;
+  color: #f1f1f1;
+}
+
+.user-mini-wrapper .user-info p{
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+

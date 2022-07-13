@@ -1,0 +1,29 @@
+body {
+    background: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #f1f1f1;
+}
+h2 {
+    margin: 0;
+}
+.wrapper {
+    width: 900px;
+    margin: 2rem auto 0;
+}
+.menu {
+    margin: 16px 0;
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+p {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 1rem;
+}
